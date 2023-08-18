@@ -8,8 +8,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">¿En qué creemos como equipo?.</h2>
-            <p className="text-xl text-gray-400">Como equipo compartimos los siguientes valores:</p>
+            <h2 className="h2 mb-4">¿En qué creemos como equipo?</h2>
+            <p className="text-xl text-gray-400">Conoce los valores que nos definen</p>
           </div>
 
           {/* Items */}

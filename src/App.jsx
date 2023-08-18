@@ -11,8 +11,8 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+import Nosotros from './pages/Nosotros';
+import NoiseTrack from './pages/NoiseTrack';
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
@@ -38,7 +38,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        
+        <Route exact path="/Nosotros" element={<Nosotros />} />
+        <Route exact path="/NoiseTrack" element={<NoiseTrack />} />
       </Routes>
     </>
   );
