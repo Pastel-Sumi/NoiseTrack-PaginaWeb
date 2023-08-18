@@ -19,9 +19,6 @@ function Home() {
     
     <div className="flex flex-col min-h-screen overflow-hidden">
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTN5QW9FYK"></script>
-      
-      {/*  Site header */}
-      <Header />
 
       {/*  Page content */}
       <main className="grow">

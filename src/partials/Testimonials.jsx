@@ -19,8 +19,8 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4"> ¿Quiénes somos?</h2>
-            <p className="text-xl text-gray-400">Roku6its es una empresa fundada en la Universidad Federico Santa María por un grupo de seis estudiantes de Ingeniería Civil Informática. Surgimos como resultado de la Feria de Software de la universidad, y nos enorgullecemos de llevar la innovación y la tecnología a nuevos horizontes. <br/>
+            <h2 className="h2 mb-4"> Conoce al equipo</h2>
+            <p className="text-xl text-gray-400">Somos un equipo compuesto por seis estudiantes de Ingeniería Civil Informática, Te invitamos a conocer lo que cada uno te puede ofrecer.
             </p>
             <br/>
             
@@ -125,15 +125,9 @@ function Testimonials() {
                 </div>
               </div>
           </div>
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <br/>
-            <p className='text-xl text-gray-400'>Estamos comprometidos a mejorar la salud y seguridad de los trabajadores, y creemos que una de las formas de hacerlo es reducir su exposición al ruido. Los trabajadores que están expuestos al ruido regularmente tienen un mayor riesgo de sufrir pérdida auditiva, tinnitus, problemas de equilibrio y concentración, y estrés. El ruido también puede aumentar el riesgo de accidentes.</p>
-
-            <br/>
-            </div>
-                </div>
-
               </div>
+
+           </div>
 
 </section>
   );
