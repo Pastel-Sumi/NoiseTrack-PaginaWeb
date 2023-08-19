@@ -6,7 +6,7 @@ import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesZigZag from '../partials/FeaturesZigzag';
 import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
+
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
 
@@ -16,10 +16,17 @@ import Footer from '../partials/Footer';
 
 function Home() {
   return (
-    
+   
     <div className="flex flex-col min-h-screen overflow-hidden">
+      <link rel='icon' type='image/png' href='../images/image.png'></link>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTN5QW9FYK"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
 
+        gtag('config', 'G-WTN5QW9FYK');
+        </script>
       {/*  Page content */}
       <main className="grow">
         {/*  Page illustration */}
@@ -32,7 +39,6 @@ function Home() {
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
       </main>
 
       <Banner />
