@@ -1,9 +1,5 @@
 import React from 'react';
 
-import TestimonialImage01 from '../images/testimonial-01.jpg';
-import TestimonialImage02 from '../images/testimonial-02.jpg';
-import TestimonialImage03 from '../images/testimonial-03.jpg';
-
 import BastianImage from '../images/bastian.jpg';
 import CamilaImage from '../images/camila.jpg';
 import DiegoImage from '../images/diego.jpg';
