@@ -13,7 +13,6 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import NoiseTrack from './pages/NoiseTrack';
-import ResetPassword from './pages/ResetPassword';
 
 function App() {
 
