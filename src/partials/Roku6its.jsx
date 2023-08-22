@@ -2,7 +2,7 @@ import React from 'react';
 
 import mission from '../images/mission.png';
 import vision from '../images/vision.png';
-
+import logo from '../images/logoPreEmpresaNegativo.png'
 function Roku6its() {
   return (
     <section>
@@ -11,6 +11,7 @@ function Roku6its() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <img className="max-w-full mx-auto md:max-w-none h-auto" src={logo} width="250" height="250" alt="Roku6its logo" />
             <h1 className="h2 mb-4">Roku6its</h1>
             <p className="text-xl text-gray-400">Pre-empresa fundada en la Universidad Federico Santa María, surgida como resultado de la Feria de Software de la universidad, y nos enorgullecemos de llevar la innovación y la tecnología a nuevos horizontes.</p>
           </div>

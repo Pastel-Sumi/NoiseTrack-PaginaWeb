@@ -36,9 +36,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/Nosotros" element={<Nosotros />} />
-        <Route exact path="/NoiseTrack" element={<NoiseTrack />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Nosotros" element={<Nosotros />} />
+        <Route path="/NoiseTrack" element={<NoiseTrack />} />
       </Routes>
     </>
   );

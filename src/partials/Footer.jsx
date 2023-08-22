@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FeriaLogo from '../images/fesw-logo.png';
+import USMLogo from '../images/logo-usm-blanco-v2.png';
 
 function Footer() {
   return (
     <footer>
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <a href='https://www.feriadesoftware.cl/' target='_blank'> <img className="max-w-full mx-auto md:max-w-none h-auto" src={FeriaLogo} width="125" height="125"  alt="Roku6its logo" /></a>
 
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">

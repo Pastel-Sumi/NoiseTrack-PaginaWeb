@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Modal from '../utils/Modal';
 
 import GroupImage from '../images/roku6its.jpg';
+import LogoImage from '../images/logo.png';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -55,7 +56,7 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-              <img className="mx-auto" src={GroupImage} width="1024" height="504" alt="Hero" />
+              <img className="mx-auto" src={LogoImage} width="640" height="360" alt="Hero" />
               <a
                 className="absolute group"
                 href="#0"

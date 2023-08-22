@@ -35,7 +35,7 @@ function Testimonials() {
                     </svg>
                         </div>
                 </div>
-                <blockquote className="text-lg text-gray-400 grow">— La jefa.</blockquote>
+                <blockquote className="text-lg text-gray-400 grow">— Encargada de organizar al equipo. Siempre me encontrarás con una lista de todo's con lo que tengo que hacer en el día.</blockquote>
                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                   <cite className="text-gray-200 not-italic">Camila Arancibia</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/camila-arancibia/" target='_blank'>Scrum Master</a>
                 </div>
@@ -51,7 +51,7 @@ function Testimonials() {
                     </svg>
                       </div>
                 </div>
-                <blockquote className="text-lg text-gray-400 grow">— La segunda jefa.</blockquote>
+                <blockquote className="text-lg text-gray-400 grow">— Encargada de buscar soluciones para los usuarios ayudando a mejorar procesos y entregar el máximo valor.</blockquote>
                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                   <cite className="text-gray-200 not-italic">Sofia Martínez</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/sofia-martinez-alvarez/" target='_blank'>Product Owner</a>
                 </div>
@@ -67,7 +67,7 @@ function Testimonials() {
                     </svg>
                       </div>
                   </div>
-                  <blockquote className="text-lg text-gray-400 grow">— Marketeo.</blockquote>
+                  <blockquote className="text-lg text-gray-400 grow">— Encargado de comunicar y crear algo de lo que se este orgulloso.</blockquote>
                   <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                    <cite className="text-gray-200 not-italic">Diego Aguilera</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/diegoaguileram/" target='_blank'> Marketing y Comunicaciones</a>
                 </div>
@@ -83,7 +83,7 @@ function Testimonials() {
                     </svg>
                       </div>
                     </div>
-                    <blockquote className="text-lg text-gray-400 grow">— Hacer pruebas.</blockquote>
+                    <blockquote className="text-lg text-gray-400 grow">— Tester encargado de asegurar el cumplimiento de los objetivos para asegurar la conformidad del usuario.</blockquote>
                     <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                       <cite className="text-gray-200 not-italic">Roberto Covarrubias</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/roberto-covarrubias-figueroa-739843258/" target='_blank'> Encargado de Testing</a>
                 </div>
@@ -99,7 +99,7 @@ function Testimonials() {
                     </svg>
                       </div>
                     </div>
-                    <blockquote className="text-lg text-gray-400 grow">— Hombre IA.</blockquote>
+                    <blockquote className="text-lg text-gray-400 grow">— Encargado de transformar las ideas en realidad a través de la tecnología y el trabajo en equipo.</blockquote>
                     <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                       <cite className="text-gray-200 not-italic">Bastian Lara</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/bastian-lara-q/" target='_blank'> Encargado de Tecnologías</a>
                 </div>
@@ -115,7 +115,7 @@ function Testimonials() {
                       </svg>
                         </div>
                     </div>
-                    <blockquote className="text-lg text-gray-400 grow">— Hacer la página.</blockquote>
+                    <blockquote className="text-lg text-gray-400 grow">— Encargado de velar porque nuestras soluciones entreguen la mejor experiencia al usuario.</blockquote>
                     <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                       <cite className="text-gray-200 not-italic">Esteban Manríquez</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/esmanri/" target='_blank'> Encargado UX</a>
                 </div>
