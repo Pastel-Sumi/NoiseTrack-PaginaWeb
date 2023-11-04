@@ -1,0 +1,14 @@
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+    
+}

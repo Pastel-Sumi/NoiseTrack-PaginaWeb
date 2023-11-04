@@ -4,6 +4,7 @@ import Modal from '../utils/Modal';
 import GroupImage from '../images/roku6its.jpg';
 import LogoImage from '../images/logo.png';
 
+import '../css/video.css';
 function HeroHome() {   
 
   return (
@@ -50,20 +51,29 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-            <iframe width="640" height="480" src="https://www.youtube.com/embed/FJO_6S0H8bQ?si=aj2LSJZ7_frEz45b" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-              <a>
-                <svg
-                  className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
-                  viewBox="0 0 88 88"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+            <div className='video-container'>
+              <iframe 
+                width="640" 
+                height="480" 
+                src="https://www.youtube.com/embed/FJO_6S0H8bQ?si=aj2LSJZ7_frEz45b" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen>
+              </iframe>
+            </div>
+            <a>
+              <svg
+                className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
+                viewBox="0 0 88 88"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                   <defs>
                     <linearGradient x1="78.169%" y1="9.507%" x2="24.434%" y2="90.469%" id="a">
                       <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />
                       <stop stopColor="#EBF1F5" offset="100%" />
                     </linearGradient>
                   </defs>
-                  
                 </svg>
               </a>
             </div>
